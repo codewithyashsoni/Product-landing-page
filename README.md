@@ -18,6 +18,7 @@ ToyWhiz is a sleek and responsive product landing page created for a fictional t
 
 ## Project Structure
 
+```
 ToyWhiz/
 ├── index.html             # Main HTML file
 ├── styles.css             # CSS file for styling
@@ -26,6 +27,7 @@ ToyWhiz/
     ├── images/            # Folder for images
         ├── logo.png       # Logo of ToyWhiz
         ├── screenshot.png # Screenshot of the website
+```
 
 ## Sections Overview
 
