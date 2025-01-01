@@ -50,7 +50,13 @@ ToyWhiz/
 
 ## Demo
 
-You can view the live demo of the project at [ToyWhiz Landing Page](https://your-github-username.github.io/ToyWhiz/).
+You can view the live demo of the project at [ToyWhiz Landing Page](https://codewithyashsoni.github.io/Product-landing-page/).
+
+## Screenshots
+
+<img src="https://github.com/codewithyashsoni/Product-landing-page/blob/bcee037ca840382dbcbb55e5f5e31418b90de1c0/assets/images/screenshot1.png" alt="First screenshot of webpage">
+
+<img src="https://github.com/codewithyashsoni/Product-landing-page/blob/bcee037ca840382dbcbb55e5f5e31418b90de1c0/assets/images/screenshot2.png" alt="Second screenshot of webpage">
 
 ## Installation
 
