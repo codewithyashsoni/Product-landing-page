@@ -20,13 +20,14 @@ ToyWhiz is a sleek and responsive product landing page created for a fictional t
 
 ```
 ToyWhiz/
-├── index.html             # Main HTML file
-├── styles.css             # CSS file for styling
-├── README.md              # Project documentation
-└── assets/                # Folder for assets
-    ├── images/            # Folder for images
-        ├── logo.png       # Logo of ToyWhiz
-        ├── screenshot.png # Screenshot of the website
+├── index.html              # Main HTML file
+├── styles.css              # CSS file for styling
+├── README.md               # Project documentation
+└── assets/                 # Folder for assets
+    ├── images/             # Folder for images
+        ├── logo.png        # Logo of ToyWhiz
+        ├── screenshot1.png # Screenshot of the website
+        ├── screenshot2.png # Screenshot of the website
 ```
 
 ## Sections Overview
