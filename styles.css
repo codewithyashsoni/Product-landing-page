@@ -341,4 +341,10 @@ footer{
     toy1, .toy2, .toy3{
         width: 75%;
     }
+}
+
+@media only screen and (max-width: 350px){
+    toy1, .toy2, .toy3{
+        width: 90%;
+    }
 }  
