@@ -13,56 +13,49 @@ body{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 13vh;
     position: fixed;
     top: 0;
     justify-content: space-between;
-    min-height: 10vh;
+    align-items: center;
     left: 0;
 }
   
 .logo{
-    margin-left: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    min-height: 100%;
-}
-  
-img{
-    height: 90%;
+    margin: 0 0 0 3rem ;
 }
   
 nav{
-    width: 55vw;
-    height: 100%;
-    margin-right: 1rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 0 1rem 0 0;
 }
   
 nav > ul{
-    width: 100%;
-    height: 100%;
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content:space-around; 
+    margin: 0;
+    justify-content: center;
+    align-items: center; 
 }
   
 nav > ul > a{
-    display: flex;
-    font-size: clamp(1.3rem, 2vw, 2.5rem);
-    margin: auto 0;
-    max-height: 100%;
+    display: block;
+    font-size: 2rem;
+    padding: 1.5rem;
+    margin: 0;
     color: black;
     text-decoration: none;
 }
   
 main{
-    padding-top: 13vh;
+    padding-top: 7rem;
     background-color: #eee;
     width: 100%;
     height: 100%;
@@ -91,18 +84,19 @@ main{
 }
   
 #email{
-    width: 25%;
+    width: 15vw;
     height: 4vh;
     margin-bottom: 0.7rem;
     min-width: 170px;
 }
   
 #submit{
-    width: 18%;
+    width: 11vw;
     font-size: 1.2rem;
     background-color: #f1c40f;
     cursor: pointer;
     min-width: 110px;
+  
 }
   
 #features{
@@ -115,7 +109,7 @@ main{
 .feature1, .feature2, .feature3{
     display: flex;
 }
-
+  
 .icon{
     font-size: 2.5rem;
     display: flex;
@@ -155,18 +149,23 @@ main{
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 5rem;
     scroll-margin-top: 5rem;
 }
   
 .toy1, .toy2, .toy3{
-    width: 30%;
+    width: 26%;
     border: 2px solid black;
     border-radius: 3%;
     display: flex;
     flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
   
 .name{
@@ -221,7 +220,7 @@ footer{
     align-items: flex-end;
 }
   
-.privacy-terms{
+  .privacy-terms{
     width: 30%;
 }
   
@@ -230,6 +229,7 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
+  
 }
   
 .privacy-terms ul a{
@@ -240,64 +240,105 @@ footer{
 .copyright{
     width: 30%;
     padding-left: 10%;
+    text-align: center;
     color: #444;
 }
   
-@media only screen and (max-width: 1020px){
+@media only screen and (max-width: 1250px){
     #home, #features, #how-it-works, #products, footer{
-        width: 100%;
+        width: 80%;
     }
   
 }
   
-@media only screen and (max-width: 720px){
-    #products{
-        flex-direction: column;
-        align-items: center;
-    }
-  
-    .toy1, .toy2, .toy3{
-        width: 50%;
-        min-width: 240px;
-        border: 2px solid black;
-        border-radius: 3%;
-        margin: 8px auto;
-    }
-  
-    .privacy-terms{
-        width: 50%
-    }
-  
-    .copyright{
-        width: 50%;
-    }
-  
-}
-  
-@media only screen and (max-width: 650px){
-    #header{
-        flex-direction: column;
-        height: 26vh;
+@media only screen and (max-width: 1100px){
+    #home, #features, #how-it-works, #products, footer{
+        width: 90%;
     }
   
     .logo{
         height: 50%;
-        min-height: 50%;
+        margin: 0;
     }
   
     nav{
-        width: 100%;
-        flex-wrap: wrap;
+        margin: 0;
     }
   
-    main{
-        padding-top: 26vh;
+    nav > ul >a{
+        font-size: 1.7rem;
+        padding: 1.2rem;
     }
-  
-    #features, #products, #how-it-works{
-        scroll-margin-top: 10rem;
-    }
-  
 }
   
+@media only screen and (max-width: 950px){
+    #home, #features, #how-it-works, #products, footer{
+        width: 100%;
+    }
   
+    nav > ul >a{
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+}
+  
+@media only screen and (max-width: 840px){
+    .toy1, .toy2, .toy3{
+        width: 33%;
+    }
+  
+    .logo img{
+        width: 80%;
+    }
+}
+  
+@media only screen and (max-width: 750px){
+    nav > ul >a{
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+  
+    .toy1, .toy2, .toy3{
+        width: 40%;
+    }
+  
+    .footer{
+        align-items: flex-end;
+    }
+  
+    .privacy-terms{
+        width: 60%;
+    }
+  
+    .copyright{
+        width :60%;
+    }
+}
+  
+@media only screen and (max-width: 650px){
+    nav> ul > a{
+        font-size: 1.1rem;
+        padding: 0.5rem;
+    }
+  
+    .privacy-terms, .copyright{
+        width: 70%;
+    }
+}
+  
+@media only screen and (max-width: 550px){
+    .toy1, .toy2, .toy3{
+        width: 60%;
+    }
+  
+    nav > ul >a{
+        font-size: 1rem;
+        padding: 0.4rem;
+    }
+}
+  
+@media only screen and (max-width: 400px){
+    toy1, .toy2, .toy3{
+        width: 70%;
+    }
+}  
